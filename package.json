@@ -1,6 +1,6 @@
 {
   "name": "@assetval/to-case",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "A  very small library to convert strings, while preserving the their types",
   "main": "dist/index.js",
   "scripts": {
