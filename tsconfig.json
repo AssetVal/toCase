@@ -1,8 +1,11 @@
 {
   "compilerOptions": {
-    "module": "amd", // https://github.com/Microsoft/TypeScript/issues/27117
+    "module": "CommonJS", // https://github.com/Microsoft/TypeScript/issues/27117
     "declaration": true,
     "emitDeclarationOnly": true,
     "outFile": "dist/index.d.ts"
-  }
+  },
+  "include": [
+    "src/index.ts"
+  ]
 }
